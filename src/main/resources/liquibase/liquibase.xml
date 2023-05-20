@@ -4,13 +4,13 @@
     <changeSet author="maryam" id="1">
         <createTable tableName="coderz">
 
-                    <column name="id" type="BIGINT" autoIncrement="true">
-                        <constraints primaryKey="true" nullable="false" />
-                    </column>
-                    <column name="name" type="varchar(255)">
-                        <constraints nullable="true" />
-                    </column>
-                </createTable>
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(255)">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
 
     </changeSet>
 </databaseChangeLog>

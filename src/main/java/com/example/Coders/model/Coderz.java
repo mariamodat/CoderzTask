@@ -1,6 +1,5 @@
 package com.example.Coders.model;
 
-import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
 

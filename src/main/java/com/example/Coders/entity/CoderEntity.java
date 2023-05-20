@@ -1,7 +1,6 @@
 package com.example.Coders.entity;
 
 import jakarta.persistence.*;
-import lombok.Builder;
 import lombok.Data;
 
 @Entity
